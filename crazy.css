@@ -1,0 +1,161 @@
+body
+{
+	margin: 0px;
+}
+.header
+{
+    position:fixed;
+	left:0px;
+	right:0px;
+	height:100px;
+	width: 100%;
+	background-color:black;
+    z-index: 100;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.text{
+	display: block;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    position:absolute;
+	float: right;
+    height: 100%;
+    top:50px;
+    right:80px;
+}
+
+.nav a{
+    top:50px;
+	color: white;
+	padding-right: 20px;
+	font-size: 20px;
+	font-weight: 700;
+    display: inline-block;
+
+}
+.person{
+    top:40px;
+    z-index:2;
+    left:1430px;
+    position:absolute;
+
+}
+
+.section{
+    background-color:black;
+    position: absolute;
+    height:500px;
+    width: 100%;
+
+}
+.section-content{
+    color:white;
+    position: relative;
+    display: block;
+    float:left;
+    z-index:10;
+    top: 100px;
+    margin-left: 25px;
+    width:50%;
+    font-size:25px;
+    
+}
+    #triangle-topright {
+        width: 0;
+        height: 0;
+        border-top: 200px solid red;
+        border-left: 100px solid transparent;
+        position: absolute;
+        left:300px;
+        z-index: 20;
+}
+
+.image1{
+    position: absolute;
+    float:right;   
+    left:1020px;
+    top:120px;
+    
+}
+
+
+
+
+.content2{
+    color:black;
+    float:right;
+    position: relative;
+    top:500px;
+    margin-right: 70px;
+    right:240px;
+    font-size: 20px;
+}
+
+.image2{
+    float:left;
+    left:130px;
+    top:540px;
+    position: relative;
+}
+
+.footer{
+    background-color: black;
+    top:850px;
+    position: relative;
+    height:120px;
+    
+}
+
+.ftext{
+    color:white;
+    position:absolute;
+    bottom:0px;
+    left:20px;
+    float:left;
+    font-size:25px;
+}
+
+.ftext2{
+    color:white;
+    position: absolute;;
+    left:35%;
+}
+
+.ftext3{
+    color: white;
+    position: absolute;;
+    left:50%;
+    z-index: 150;
+}
+
+.mail{
+    color:white;
+    float:right;
+    right:320px;
+    position: absolute;
+
+}
+
+.insta{
+    position:absolute;
+    float:right;
+    right:0px;
+    bottom:0px;
+    
+}
+
+.fb{
+    position:absolute;
+    float:right;
+    right:50px;
+    bottom:0px;
+
+}
